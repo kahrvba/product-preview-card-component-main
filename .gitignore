@@ -1,16 +1,18 @@
-# Avoid accidental upload of the Sketch and Figma design files
-#####################################################
-## Please do not remove lines 5 and 6 - thanks! 🙂 ##
-#####################################################
+# This .gitignore file is designed to prevent accidental upload of certain files and directories
+# to version control. The following file types and directories will be ignored by git:
+
+# Design files
 *.sketch
 *.fig
-
-# Avoid accidental XD upload if you convert the design file
-###############################################
-## Please do not remove line 12 - thanks! 🙂 ##
-###############################################
 *.xd
 
-# Avoid your project being littered with annoying .DS_Store files!
+# Directories that should not be tracked by git
 .DS_Store
+.vscode/
+node_modules/
+
+# Files that should not be tracked by git
 .prettierignore
+
+# If you need to add any other files or directories to this .gitignore file,
+# make sure to add them on a new line.
